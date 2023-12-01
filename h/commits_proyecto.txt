@@ -1,0 +1,359 @@
+D:\Archivos\universidad\ProgramacionWeb1\proyecto_git_f>git init
+Initialized empty Git repository in D:/Archivos/universidad/ProgramacionWeb1/proyecto_git_f/.git/
+
+D:\Archivos\universidad\ProgramacionWeb1\proyecto_git_f>git add conexion.php
+fatal: pathspec 'conexion.php' did not match any files
+
+D:\Archivos\universidad\ProgramacionWeb1\proyecto_git_f>git add h/conexion.php
+
+D:\Archivos\universidad\ProgramacionWeb1\proyecto_git_f>git commit -m "primer commit repositorio 'pryecto_programacion web'"
+[master (root-commit) d02203b] primer commit repositorio 'pryecto_programacion web'
+ 1 file changed, 23 insertions(+)
+ create mode 100644 h/conexion.php
+
+D:\Archivos\universidad\ProgramacionWeb1\proyecto_git_f>git remote add origin https://github.com/TADAN12/Proyecto_programacion_web.git
+
+D:\Archivos\universidad\ProgramacionWeb1\proyecto_git_f>git push -u origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/TADAN12/Proyecto_programacion_web.git'
+
+D:\Archivos\universidad\ProgramacionWeb1\proyecto_git_f>git push -u origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/TADAN12/Proyecto_programacion_web.git'
+
+D:\Archivos\universidad\ProgramacionWeb1\proyecto_git_f>git remote add origin https://github.com/TADAN12/Proyecto_programacion_web.git
+error: remote origin already exists.
+
+D:\Archivos\universidad\ProgramacionWeb1\proyecto_git_f>git push -u origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/TADAN12/Proyecto_programacion_web.git'
+
+D:\Archivos\universidad\ProgramacionWeb1\proyecto_git_f>git branch
+* master
+
+D:\Archivos\universidad\ProgramacionWeb1\proyecto_git_f>git push -u origin master
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (4/4), 410 bytes | 205.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+remote:
+remote: Create a pull request for 'master' on GitHub by visiting:
+remote:      https://github.com/TADAN12/Proyecto_programacion_web/pull/new/master
+remote:
+To https://github.com/TADAN12/Proyecto_programacion_web.git
+ * [new branch]      master -> master
+branch 'master' set up to track 'origin/master'.
+
+D:\Archivos\universidad\ProgramacionWeb1\proyecto_git_f>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        h/crear_cuenta.html
+        h/crear_cuenta.php
+        h/crear_cuenta_datos.php
+        h/login.php
+        h/login_validar.php
+        h/style2.css
+        h/tabla.php
+        h/tabla_actualizar.php
+        h/tabla_mostrar.php
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+D:\Archivos\universidad\ProgramacionWeb1\proyecto_git_f>git add h/crear_cuenta.html
+
+D:\Archivos\universidad\ProgramacionWeb1\proyecto_git_f>git commit -m "commit 2 crear_cuenta.html"
+[master 1eff9a4] commit 2 crear_cuenta.html
+ 1 file changed, 45 insertions(+)
+ create mode 100644 h/crear_cuenta.html
+
+D:\Archivos\universidad\ProgramacionWeb1\proyecto_git_f>git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        h/crear_cuenta.php
+        h/crear_cuenta_datos.php
+        h/login.php
+        h/login_validar.php
+        h/style2.css
+        h/tabla.php
+        h/tabla_actualizar.php
+        h/tabla_mostrar.php
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+D:\Archivos\universidad\ProgramacionWeb1\proyecto_git_f>git push
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 956 bytes | 478.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/TADAN12/Proyecto_programacion_web.git
+   d02203b..1eff9a4  master -> master
+
+D:\Archivos\universidad\ProgramacionWeb1\proyecto_git_f>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        h/crear_cuenta.php
+        h/crear_cuenta_datos.php
+        h/login.php
+        h/login_validar.php
+        h/style2.css
+        h/tabla.php
+        h/tabla_actualizar.php
+        h/tabla_mostrar.php
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+D:\Archivos\universidad\ProgramacionWeb1\proyecto_git_f>git add h/crear_cuenta.php
+
+D:\Archivos\universidad\ProgramacionWeb1\proyecto_git_f>git commit -m "commit 3 crear_cuenta.php"
+[master 251668e] commit 3 crear_cuenta.php
+ 1 file changed, 41 insertions(+)
+ create mode 100644 h/crear_cuenta.php
+
+D:\Archivos\universidad\ProgramacionWeb1\proyecto_git_f>git push
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 905 bytes | 452.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/TADAN12/Proyecto_programacion_web.git
+   1eff9a4..251668e  master -> master
+
+D:\Archivos\universidad\ProgramacionWeb1\proyecto_git_f>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        h/crear_cuenta_datos.php
+        h/login.php
+        h/login_validar.php
+        h/style2.css
+        h/tabla.php
+        h/tabla_actualizar.php
+        h/tabla_mostrar.php
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+D:\Archivos\universidad\ProgramacionWeb1\proyecto_git_f>git add h/crear_cuenta_datos.php
+
+D:\Archivos\universidad\ProgramacionWeb1\proyecto_git_f>git commit -m "commit 4 crear_cuenta_datos.php"
+[master a1e5457] commit 4 crear_cuenta_datos.php
+ 1 file changed, 19 insertions(+)
+ create mode 100644 h/crear_cuenta_datos.php
+
+D:\Archivos\universidad\ProgramacionWeb1\proyecto_git_f>git push
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 592 bytes | 296.00 KiB/s, done.
+Total 4 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/TADAN12/Proyecto_programacion_web.git
+   251668e..a1e5457  master -> master
+
+D:\Archivos\universidad\ProgramacionWeb1\proyecto_git_f>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        h/login.php
+        h/login_validar.php
+        h/style2.css
+        h/tabla.php
+        h/tabla_actualizar.php
+        h/tabla_mostrar.php
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+D:\Archivos\universidad\ProgramacionWeb1\proyecto_git_f>git add h/login.php
+
+D:\Archivos\universidad\ProgramacionWeb1\proyecto_git_f>git commit -m "commit 4 login.php"
+[master 5c5ca94] commit 4 login.php
+ 1 file changed, 38 insertions(+)
+ create mode 100644 h/login.php
+
+D:\Archivos\universidad\ProgramacionWeb1\proyecto_git_f>git push
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 847 bytes | 423.00 KiB/s, done.
+Total 4 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/TADAN12/Proyecto_programacion_web.git
+   a1e5457..5c5ca94  master -> master
+
+D:\Archivos\universidad\ProgramacionWeb1\proyecto_git_f>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        h/login_validar.php
+        h/style2.css
+        h/tabla.php
+        h/tabla_actualizar.php
+        h/tabla_mostrar.php
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+D:\Archivos\universidad\ProgramacionWeb1\proyecto_git_f>git add h/login_validar.php
+
+D:\Archivos\universidad\ProgramacionWeb1\proyecto_git_f>git commit -m "commit 6 login_validar.php"
+[master cc4b8f7] commit 6 login_validar.php
+ 1 file changed, 41 insertions(+)
+ create mode 100644 h/login_validar.php
+
+D:\Archivos\universidad\ProgramacionWeb1\proyecto_git_f>git push
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 758 bytes | 379.00 KiB/s, done.
+Total 4 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/TADAN12/Proyecto_programacion_web.git
+   5c5ca94..cc4b8f7  master -> master
+
+D:\Archivos\universidad\ProgramacionWeb1\proyecto_git_f>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        h/style2.css
+        h/tabla.php
+        h/tabla_actualizar.php
+        h/tabla_mostrar.php
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+D:\Archivos\universidad\ProgramacionWeb1\proyecto_git_f>git add h/style2.css
+
+D:\Archivos\universidad\ProgramacionWeb1\proyecto_git_f>git commit -m "commit 7 style.css"
+[master d2067bd] commit 7 style.css
+ 1 file changed, 151 insertions(+)
+ create mode 100644 h/style2.css
+
+D:\Archivos\universidad\ProgramacionWeb1\proyecto_git_f>git push
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 1.02 KiB | 521.00 KiB/s, done.
+Total 4 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/TADAN12/Proyecto_programacion_web.git
+   cc4b8f7..d2067bd  master -> master
+
+D:\Archivos\universidad\ProgramacionWeb1\proyecto_git_f>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        h/tabla.php
+        h/tabla_actualizar.php
+        h/tabla_mostrar.php
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+D:\Archivos\universidad\ProgramacionWeb1\proyecto_git_f>git add h/tabla.php
+
+D:\Archivos\universidad\ProgramacionWeb1\proyecto_git_f>git commit -m "commit 8 tabla.php"
+[master 8c6ecec] commit 8 tabla.php
+ 1 file changed, 121 insertions(+)
+ create mode 100644 h/tabla.php
+
+D:\Archivos\universidad\ProgramacionWeb1\proyecto_git_f>git push
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 1.12 KiB | 573.00 KiB/s, done.
+Total 4 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/TADAN12/Proyecto_programacion_web.git
+   d2067bd..8c6ecec  master -> master
+
+D:\Archivos\universidad\ProgramacionWeb1\proyecto_git_f>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        h/tabla_actualizar.php
+        h/tabla_mostrar.php
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+D:\Archivos\universidad\ProgramacionWeb1\proyecto_git_f>git add h/tabla_actualizar.php
+
+D:\Archivos\universidad\ProgramacionWeb1\proyecto_git_f>git commit -m "commit 9 tabla_actualizar.php"
+[master 13850e7] commit 9 tabla_actualizar.php
+ 1 file changed, 31 insertions(+)
+ create mode 100644 h/tabla_actualizar.php
+
+D:\Archivos\universidad\ProgramacionWeb1\proyecto_git_f>git push
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 647 bytes | 323.00 KiB/s, done.
+Total 4 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/TADAN12/Proyecto_programacion_web.git
+   8c6ecec..13850e7  master -> master
+
+D:\Archivos\universidad\ProgramacionWeb1\proyecto_git_f>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        h/tabla_mostrar.php
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+D:\Archivos\universidad\ProgramacionWeb1\proyecto_git_f>git add h/tabla_mostrar.php
+
+D:\Archivos\universidad\ProgramacionWeb1\proyecto_git_f>git commit -m "commit 10 tabla_mostrar.php"
+[master 9c27155] commit 10 tabla_mostrar.php
+ 1 file changed, 62 insertions(+)
+ create mode 100644 h/tabla_mostrar.php
+
+D:\Archivos\universidad\ProgramacionWeb1\proyecto_git_f>git push
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 1.14 KiB | 584.00 KiB/s, done.
+Total 4 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/TADAN12/Proyecto_programacion_web.git
+   13850e7..9c27155  master -> master
+
+D:\Archivos\universidad\ProgramacionWeb1\proyecto_git_f>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+D:\Archivos\universidad\ProgramacionWeb1\proyecto_git_f>
