@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programacion Web</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+
+<body>
+    <main>
+        <div class="row">
+
+            <div class="colm-form">
+                <div class="encabezado2">
+
+                    <h1>Crear cuenta</h1>
+
+                </div>
+                <div class="form-container">
+                    <form action="">
+                        
+                            <input type="text" placeholder="Correo" required>
+                            <input type="password" placeholder="Contraseña" required>
+                            <input type="password" placeholder="Repite contraseña" required>
+                            <button class="btn-create">Crear cuenta</button>
+                            <input type="reset" name="borrar" id="borrar" value="Restablecer" />
+                        
+                    </form>
+                    <a href="login.php">
+
+                        <button class="btn-regresar">Regresar a ingreso</button>
+
+                    </a>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
+
+CREATE TABLE `if0_35173806_web`.`datos2` ( `id` INT NOT NULL AUTO_INCREMENT , `correo` VARCHAR(50) NOT NULL , `contrasena` INT(20) NOT NULL , PRIMARY KEY (`id`(11))) ENGINE = MyISAM;
