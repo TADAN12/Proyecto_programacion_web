@@ -2,10 +2,10 @@
 
 function getQR(){
 
-    let inputt=document.getElementById('input');
-    let inputt2=document.getElementById("input2");
-    let inputt3=document.getElementById("input3");
-    let inputt4=document.getElementById("input4");
+    let inputt=document.getElementById('input').value;
+    let inputt2=document.getElementById("input2").value;
+    let inputt3=document.getElementById("input3").value;
+    let inputt4=document.getElementById("input4").value;
 
 
     let textoConcatenado=inputt+","+inputt2+","+inputt3+","+inputt4;
